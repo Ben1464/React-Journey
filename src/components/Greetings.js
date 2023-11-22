@@ -1,6 +1,12 @@
-import React from 'react';
+import React from "react";
 
-const Greetings = ()=> <h1>Hello team</h1>
-
-
+const Greetings = (props) => {
+  console.log(props);
+  return(
+    <div>
+  <h1>Hello {props.name} aka {props.heroName} occupation {props.occupationName}</h1>;
+  {props.children}
+  </div>
+  )
+};
 export default Greetings;

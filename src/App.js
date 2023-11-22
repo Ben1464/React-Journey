@@ -5,9 +5,14 @@ import Navbar from './components/Navbar.js'
 function App() {
   return (
     <div className="App">
-     <Greetings></Greetings>
-     <Messege></Messege>
-     <Navbar></Navbar>
+     <Greetings name ="Ben" heroName ="Amedina" occupationName = "doctor"> 
+     <p>children components</p>
+     </Greetings>
+     <Greetings name = "MWangi" heroName = "Batman" occupationName = "engineer">
+      <button>Action</button>
+     </Greetings>
+     <Messege />
+     <Navbar/>
       <p>Hello again</p>
     </div>
   );
