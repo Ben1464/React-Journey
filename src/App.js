@@ -3,6 +3,7 @@ import Greetings from './components/Greetings.js'
 import Messege from './components/Message.js'
 import Navbar from './components/Navbar.js'
 import Student from './components/Student.js'
+import Contacts from './components/Contants.js'
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
      <Navbar/>
       <p>Hello again</p>
      <Student name = "parttime"sessions={30}></Student>
+     <Contacts></Contacts>
 
     </div>
     
