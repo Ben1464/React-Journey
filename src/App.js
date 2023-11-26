@@ -16,7 +16,7 @@ function App() {
      <Navbar/>
       <p>Hello again</p>
      <Student name = "parttime"sessions={30}></Student>
-     <Contacts></Contacts>
+     <Contacts cellPhone = {""} email ={""} box={""}></Contacts>
 
     </div>
     
