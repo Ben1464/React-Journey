@@ -10,7 +10,7 @@ function App() {
      <Greetings name ="Ben" heroName ="Amedina" occupationName = "doctor"> 
      <p>children components</p>
      </Greetings>
-     <Greetings name = "MWangi" heroName = "Batman" occupationName = "engineer">
+     <Greetings name = "MWangi" heroName = "Batman" occupationName = "engineer" message = "You are a good person">
       <button>Action</button> </Greetings>
      <Messege />
      <Navbar/>

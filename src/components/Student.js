@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Student(props){
+function Student({name,sessions}){
 return (
-    <p> Student type {props.name}, sessions to attend {props.sessions}</p>
+    <p> Student type {name}, sessions to attend {sessions}</p>
 )
 }
 export default  Student;
